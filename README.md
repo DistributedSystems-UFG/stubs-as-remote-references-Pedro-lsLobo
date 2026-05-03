@@ -1,16 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/TPGyf4AW)
 This is a simple example to demonstrate how stubs can be used as remote references in RPC systems. The example was extracted from (Tanenbaum and van Steen, 2025).
 
-## Arquitetura
-
-O sistema é distribuído em três máquinas (AWS EC2):
-
-* EC2 1: Servidor (`server_main.py`)
-* EC2 2: Cliente 1 (`client1_main.py`)
-* EC2 3: Cliente 2 (`client2_main.py`)
-
----
-
 ## Funcionamento
 
 1. O Cliente 1:
